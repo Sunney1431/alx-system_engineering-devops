@@ -12,7 +12,7 @@ for LINE in $LINES
 	    
 do
     
-    if [ "$LINE" = 'auto.sh' ]; then
+    if [ "$LINE" == 'auto.sh' ]; then
 	
 	echo "$LINE"
 	
